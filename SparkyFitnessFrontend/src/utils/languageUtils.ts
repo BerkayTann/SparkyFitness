@@ -28,6 +28,7 @@ export const getSupportedLanguages = (): string[] => {
     'sl',
     'sv',
     'ta',
+    'tr',
     'uk',
     'zh-Hans',
   ];
@@ -85,6 +86,8 @@ export const getLanguageDisplayName = (langCode: string): string => {
       return 'Svenska';
     case 'ta':
       return 'தமிழ்';
+    case 'tr':
+      return 'Türkçe';
     case 'uk':
       return 'Українська';
     case 'zh-Hans':
